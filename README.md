@@ -59,6 +59,7 @@ Die Funktion soll eine Liste von Dictionaries zurückgeben, zum Beispiel:
 ## Hinweise
 - Verwende `with open(filepath, 'r') as file:` um die Datei zu öffnen
 - Mit `file.readlines()` kannst du alle Zeilen als Liste einlesen
+- Oder mit `for line in file:` darüber iterieren (bevorzugt)
 - Jede Zeile kannst du mit `line.strip().split(',')` in ihre Einzelteile zerlegen
 - Die erste Zeile enthält die Spaltennamen, die du als Dictionary-Schlüssel verwenden sollst
 - Das csv-Modul soll NICHT verwendet werden
